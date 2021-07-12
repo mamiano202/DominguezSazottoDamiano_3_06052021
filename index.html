@@ -9,9 +9,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 </head>
 
-
+<body>
 <div class="spinner_loader">
     <div class="loader">
         <span class="lettre">O</span>
@@ -26,7 +32,7 @@
         <div class="lds-dual-ring"></div>
 </div>
 
-<body>
+
     <div id="container">
         <header>
             <div id="logo"><img src="images/logo/ohmyfood@2x.svg" alt="logo ohmyfood"/>
@@ -34,7 +40,7 @@
         </header>
         
         
-        <section class="position">
+        <section class="localisation">
             <i class="fa-map-marker-alt fas local__icon"></i>
             <span class="text">Paris, Belleville</span>
         </section>
@@ -70,7 +76,7 @@
             <h2>
                 Restaurants
             </h2>
-            <a class="cards">
+            <div class="cards">
 
                 <!--/* Superposition simple */
                 <div class="overlay-image"><a href="URL_LIEN">
@@ -78,58 +84,68 @@
                   <div class="text">Image + texte
                     PAS DE HOVER</div>
                 </a></div> -->
-                <figure class="img1">
-                    
-                    <img src="images/restaurants/palette.jpg" alt="palette"/>
+                <div class="img1">
+                    <a href="palette.html">
                     <p class="new">
                         Nouveau
                     </p>
-                    <figcaption class="text-aside">
+                    <img src="images/restaurants/palette.jpg" alt="palette"/>
+                    <div class="text-aside">
                         <div class="com">
                             <h3 class="card_title">La palette du goût</h3>
                             <div class="card_subtitle">Ménilmontant</div>
                         </div>
                         <i class="like fa-2x fa-heart far" aria-hidden="true"></i>
-                    </figcaption>
-                </figure>
+                    </div>
+                    </a>
                 
+                </div>
 
-                <figure class="img2">
-                    <img src="images/restaurants/note.jpg" alt="note"/>
+                <div class="img2">
+                    <a href="enchantee.html">
                     <p class="new">
                         Nouveau
                     </p>
-                    <figcaption class="text-aside">
+                    <img src="images/restaurants/note.jpg" alt="note"/>
+                    <div class="text-aside">
                         <div class="com">
                             <h3 class="card_title">La note enchantée</h3>
                             <div class="card_subtitle">Charonne</div>
                         </div>
                         <i class="like fa-2x fa-heart far" aria-hidden="true"></i>
-                        
-                    </figcaption>
-                </figure>
-                <figure class="img3">
+                    </div>
+                    </a>
+                </div>
+
+
+                <div class="img3">
+                    <a href="francaise.html">
                     <img src="images/restaurants/francaise.jpg" alt="francaise"/>
-                    <figcaption class="text-aside">
+                    <div class="text-aside">
                         <div class="com">
                             <h3 class="card_title">À la française</h3>
                             <div class="card_subtitle">Cité Rouge</div>
                         </div>
                         <i class="like fa-2x fa-heart far" aria-hidden="true"></i>
-                    </figcaption>
-                </figure>
-                <figure class="img4">
-                    <img src="images/restaurants/delice.jpg" alt="delice"/>
-                    <figcaption class="text-aside">
-                        <div class="com">
-                        <h3 class="card_title">Le délice des sens</h3>
-                        <div class="card_subtitle">Folie-Méricourt</div>
                     </div>
-                    <i class="like fa-2x fa-heart far" aria-hidden="true"></i>
-                    </figcaption>
-                </figure>
+                </a>
+                </div>
 
-            </a>
+
+                <div class="img4">
+                    <a href="delice.html">
+                    <img src="images/restaurants/delice.jpg" alt="delice"/>
+                    <div class="text-aside">
+                        <div class="com">
+                            <h3 class="card_title">Le délice des sens</h3>
+                            <div class="card_subtitle">Folie-Méricourt</div>
+                        </div>
+                    <i class="like fa-2x fa-heart far" aria-hidden="true"></i>
+                    </div>
+                </a>
+                </div>
+
+            </div>
 
         </div>
         
