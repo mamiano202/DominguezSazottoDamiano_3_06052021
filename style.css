@@ -137,6 +137,13 @@ h3,
 h4{
   font-family: 'Shrikhand', cursive;;
 }
+
+
+
+.fa-arrow-left {
+  color: black;
+}
+
 /*-----position-----*/
 .localisation {
   background-color: #f3f3f3;
