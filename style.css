@@ -30,7 +30,7 @@
   color: #99e2d0;
   font-size: 20px;
   letter-spacing: 15px;
-  animation: flash 1.5s linear infinite;
+  animation: flash 1.5s linear infinite;/*linear : la vitesse est constante pendant toute la durée de l’animation.*/
 }
 
 @keyframes flash {
@@ -195,31 +195,16 @@ form {
   padding-top: 25px;
   padding-bottom: 50px;
 }
-/*.order_button {
-  display: flex;
-  justify-content: center;
-  background: linear-gradient(#ff79da, #9356dc);
-  box-shadow: 5px 5px 10px 1px #a1a1a1;
-  color: white;
-  border-radius: 50px;
-  width: 36%;
-  padding: 12px 16px 12px 16px;
-  margin-top: 50px;
-  margin-bottom: 60px;
-}
-.order_button:hover {
-  background: linear-gradient(#fd8bdd 20%, #9667cf 100%);
-  box-shadow: 10px 10px 10px 1px #a1a1a1;
-}*/
+
 
 input[type="button"] {
   display: flex;
   justify-content: center;
-  background: linear-gradient(#ff79da, #9356dc);
+  background: linear-gradient(#ff79da, #9356dc);/*spécification du dégradé de couleurs linéaire à appliquer sur l'arrière-plan */
   box-shadow: 5px 5px 10px 1px #a1a1a1;
   color: white;
   border-radius: 50px;
-  width: 36%;
+  width: 250px;
   padding: 20px;
   
 }
@@ -470,13 +455,13 @@ main .animation_recette:hover .circlehere {
 main .animation_recette .circle {
   width: 0px;
   transition: 0.2s;
-  transition-timing-function: ease-out;
+  transition-timing-function: ease-out; /*rapide au début et décèlere sur la fin*/
 }
 
 main .animation_recette:hover .circle {
   width: 80px;
   transition: 0.3s;
-  transition-timing-function: ease-in;
+  transition-timing-function: ease-in;/*lent au début et cela accélère de plus en plus vers la fin.*/
 }
 
 main .animation_recette:hover .ingre_prize {
@@ -513,7 +498,7 @@ main .animation_recette:hover .ingre_prize {
     transform: translateY(0);
     opacity: 1;
   }
-}
+}/*Opacité et deplacement vertical*/
 
 hr {
   border: #99e2d0 solid 2px;
